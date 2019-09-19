@@ -9,5 +9,14 @@ namespace SweepStakes
     public class SweepstakeQueueManager : ISweepstakesManager
     {
 
+        public Sweepstakes GetSweepstakes()
+        {
+            
+        }
+
+        public void InsertSweepstakes(Sweepstakes sweepstakes)
+        {
+            
+        }
     }
 }

@@ -20,7 +20,7 @@ namespace SweepStakes
 
         public void RegisterContestant(Contestant contestant)
         {
-            Console.WriteLine("Please Enter Name Below \n");
+            Console.WriteLine("Please Enter Name\n");
             Console.WriteLine("First Name: ");
             contestant.FirstName = Console.ReadLine();
 
