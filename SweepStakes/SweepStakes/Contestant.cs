@@ -6,12 +6,13 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    public abstract class Contestant
+    public class Contestant
     {
         //member variables
-        public Contestant FirstName;
-        public Contestant LastName;
-        public Contestant RegistrationNumber;
+        public string FirstName;
+        public string LastName;
+        public string email;
+        public int registrationNumber;
 
 
         //ctor
@@ -21,11 +22,21 @@ namespace SweepStakes
         }
 
         //member methods
-        public abstract void Name();
+        public void Name()
+        {
+            
+        }
+        
 
-        public abstract void Email();
+        public void Email()
+        {
 
-        public abstract void RegistrationNumber()
+        }
+
+        public void RegistrationNumber()
+        {
+
+        }
 
 
 

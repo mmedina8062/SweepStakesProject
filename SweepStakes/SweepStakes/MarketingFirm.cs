@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    class Contestant1123
+    public class MarketingFirm
     {
+
     }
 }
