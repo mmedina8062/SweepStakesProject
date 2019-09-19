@@ -9,7 +9,10 @@ namespace SweepStakes
     public abstract class Contestant
     {
         //member variables
-        public Contestant contestant;
+        public Contestant FirstName;
+        public Contestant LastName;
+        public Contestant RegistrationNumber;
+
 
         //ctor
         public Contestant()
@@ -18,6 +21,12 @@ namespace SweepStakes
         }
 
         //member methods
+        public abstract void Name();
+
+        public abstract void Email();
+
+        public abstract void RegistrationNumber()
+
 
 
     }
