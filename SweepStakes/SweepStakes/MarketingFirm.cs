@@ -6,8 +6,26 @@ using System.Threading.Tasks;
 
 namespace SweepStakes
 {
-    public class MarketingFirm
+    public class MarketingFirm 
     {
+        //member variable
+        ISweepstakesManager _dataAccess;
 
+
+        
+
+
+        //ctor
+        public MarketingFirm(ISweepstakesManager getSweepstakes)
+        {
+            _dataAccess = new getSweepstakes;
+
+        }
+
+
+
+        //member method
+         
+       
     }
 }
