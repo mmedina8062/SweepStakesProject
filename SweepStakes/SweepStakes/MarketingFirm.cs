@@ -9,23 +9,38 @@ namespace SweepStakes
     public class MarketingFirm 
     {
         //member variable
-        ISweepstakesManager _dataAccess;
-
-
         
+        private ISweepstakesManager SweepstakesManager;
+        private ISweepstakesManager SweepstakeQueueManager;
+        public ISweepstakesManager getSweepstakesManager
+        {
+            get
+            {
+                return SweepstakesManager;
+            }
+        }
 
+        public ISweepstakesManager getSweepstakeQueueManager
+        {
+            get
+            {
+                return SweepstakeQueueManager;
+            }
+        }
 
         //ctor
-        public MarketingFirm(ISweepstakesManager getSweepstakes)
+        public MarketingFirm(ISweepstakesManager SweepstakeQueueManager, ISweepstakesManager SweepstakeStackManager, string contestant)
         {
-            _dataAccess = new getSweepstakes;
+            this.SweepstakeQueueManager = SweepstakeQueueManager;
+            this.SweepstakesManager = SweepstakeStackManager; 
 
         }
 
-
-
         //member method
-         
+        public void getSweepstakes()
+        {
+             
+        }
        
     }
 }

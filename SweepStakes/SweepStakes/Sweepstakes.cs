@@ -11,12 +11,13 @@ namespace SweepStakes
         //member variable
         public Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
         int count = 1;
-         
+
 
         public Sweepstakes(string name)
         {
-
+            Dictionary<int, Contestant> contestants = new Dictionary<int, Contestant>();
         }
+    
 
         public void RegisterContestant(Contestant contestant)
         {
